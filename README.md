@@ -1,5 +1,5 @@
 ## Tech
-Nowreports is a web application composed of three modules: React, node, and AI, each having its own Github repository.
+Smartwiki is a web application composed of three modules: React, node, and AI, each having its own Github repository.
 
 - The React is built with React and Google Firebase.
 - Firebase is used for authentication and analytics only.
