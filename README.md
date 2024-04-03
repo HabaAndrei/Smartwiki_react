@@ -1,3 +1,11 @@
+
+## Environments
+The React application is deployed using Nginx.
+
+## Usage Instructions
+I recommend creating an account. You can do this with a username and password, but it's much easier to use Google sign-in.
+Upon creating an account, you'll receive 10 tokens to test and use the application. Later, you can either subscribe or purchase tokens individually.
+
 ## Tech
 Smartwiki is a web application composed of three modules: React, node, and AI, each having its own Github repository.
 
@@ -9,9 +17,6 @@ Smartwiki is a web application composed of three modules: React, node, and AI, e
 ## Application Structure
 The frontend objects are divided into Pages and Components.
 Users can sign in either with username and password, or with a Google account.
-
-## Environments
-The React application is deployed using Nginx.
 
 
 ## Screenshots
