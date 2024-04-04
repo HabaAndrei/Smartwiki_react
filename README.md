@@ -21,17 +21,30 @@ Users can sign in either with username and password, or with a Google account.
 ## Description 
 
 **"AlertPage.js"**
-Within the context of *"ContextAlertaFullPages,"* alerts and notification information are managed across all pages. I have implemented this context to ensure a consistent and uniform experience for users, regardless of the page they are on.
+
+
+Within the context of *"ContextAlertaFullPages,"* alerts and notification information are managed across all pages. 
+I have implemented this context to ensure a consistent and uniform experience for users, regardless of the page they are on.
 
 **"SignUp.js / SignIn.js"**
-These pages facilitate the user login process using the Google Firebase service. Functionality is configured to allow users to log in using their Google account or by manually entering an email address and password. The *"neConectamCuGoogle"* function facilitates logging in with a Google account, while the *"creamCont"* function allows creating an account using an email address and password.
+
+
+These pages facilitate the user login process using the Google Firebase service. 
+Functionality is configured to allow users to log in using their Google account or by manually entering an email address and password. 
+The *"neConectamCuGoogle"* function facilitates logging in with a Google account, while the *"creamCont"* function allows creating an account using an email address and password.
 
 **"PageChat.js"**
-This page manages the main interaction with the user. The *"arrayCuOferteDeTokeni"* list contains products available for purchase, including products with instant purchase and monthly subscriptions with unlimited access to services. The *"stergemConversatiaCuModal"* function deletes conversations between the user and the developed AI, while *"trimitCerereAI"* sends the message and conversation history to a Flask server (Gunicorn) for processing. The *"deruleazaInJos"* function ensures automatic scrolling of the conversation down to keep the focus on the latest messages. Using state variables *"arCuObMesaje"* and *"arCuConv"* allows storing and managing message and conversation information.
+
+
+This page manages the main interaction with the user. The *"arrayCuOferteDeTokeni"* list contains products available for purchase, including products with instant purchase and monthly subscriptions with unlimited access to services. 
+The *"stergemConversatiaCuModal"* function deletes conversations between the user and the developed AI, while *"trimitCerereAI"* sends the message and conversation history to a Flask server (Gunicorn) for processing. 
+The *"deruleazaInJos"* function ensures automatic scrolling of the conversation down to keep the focus on the latest messages. Using state variables *"arCuObMesaje"* and *"arCuConv"* allows storing and managing message and conversation information.
 
 Additionally, the user is restricted from interacting with the AI without having enough tokens or an active subscription, according to the *"verificamTokeni"* function.
 
 **"Setari.js"**
+
+
 This page manages the token usage history, payment history, and user account settings. The user has the option to cancel an active subscription using the *"stergemSubscriptiaAbonament"* function. Integration with Stripe facilitates payment and subscription management through the *"luamIstoricCredite"* and *"luamIstoricBuy"* functions.
 
 
